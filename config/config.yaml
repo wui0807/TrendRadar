@@ -70,3 +70,18 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+    - id: "_36Kr"
+    name: "36氪"
+    - id: "fastbull"
+    name: "法布"
+     - id: "gelonghui"
+    name: "格隆汇"
+    - id: "kaopu"
+    name: "靠谱新闻"
+     - id: "jin10"
+    name: "金十"
+      - id: "sputniknewscn"
+    name: "俄罗斯"
+    
+    
+    
