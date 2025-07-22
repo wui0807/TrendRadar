@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-07-22 15:28:30</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">机器人</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5041061" target="_blank" class="news-link">超研股份(301602.SZ)：与智元机器人暂无合作</a> [12] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5041059" target="_blank" class="news-link">国机精工(002046.SZ)：目前尚未直接与人形机器人公司建立商务关系</a> [14] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5041058" target="_blank" class="news-link">江苏雷利(300660.SZ)：公司的空心杯电机、无框电机、丝杠等零部件产品可用于机器人领域</a> [15] <font color='grey'>- 15时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">股票 基金 港股</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3563305_100_1" target="_blank" class="news-link">花旗：领展房产基金（00823.HK）首席执行官王国龙将于2026年6月退休，预计平稳过渡/战略稳定将得以延续。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3563287_100_1" target="_blank" class="news-link">中国外管局副局长：跨境资金延续净流入，外资整体净增持境内的股票和债券。</a> [12] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3563277_100_1" target="_blank" class="news-link">【行情】意法半导体米兰上市股票早盘下跌1.7%。</a> [17] <font color='grey'>- 15时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2092225" target="_blank" class="news-link">特斯拉超级充电站餐厅来了！马斯克：计划未来开遍全球！</a> [9] <font color='grey'>- 15时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5041060" target="_blank" class="news-link">东土科技(300353.SZ)：已在海外多个地区的电力工程、轨道交通建设及工厂自动化系统中实现广泛应用</a> [13] <font color='grey'>- 15时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">游戏 游戏ETF 版号</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3DiPad%E4%B8%8A%E5%8F%AF%E4%BB%A5%E7%8E%A9%E5%88%B0%E5%A4%A9%E6%98%8F%E5%9C%B0%E6%9A%97%E7%9A%84%E6%B8%B8%E6%88%8F&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">iPad上可以玩到天昏地暗的游戏</a> [30] <font color='grey'>- 15时28分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
