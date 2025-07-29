@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-07-29 15:30:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">3</td>
+                <td class="percentage">2.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250729152007165800" target="_blank" class="news-link">匈牙利经济部长：汽车行业将能够承受15%的关税税率。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1933449795894253520" target="_blank" class="news-link">新央企中国长安汽车集团成立，登记地在重庆，注册资本 200 亿元，将对汽车行业和市场格局带来哪些影响？</a> [9] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7532329925286661671/" target="_blank" class="news-link">新央企中国长安汽车集团成立</a> [14] <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">2.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044621" target="_blank" class="news-link">研报掘金丨民生证券：维持能科科技“推荐“评级，AI产品与服务业务取得突破性增长</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044615" target="_blank" class="news-link">飞沃科技(301232.SZ)：产品已经进入C919产业链</a> [7] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044611" target="_blank" class="news-link">精工科技(002006.SZ)：暂无开展PEEK材料生产设备或产品的研发</a> [11] <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">创新药 港股 创新药ETF</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044613" target="_blank" class="news-link">A股收评：沪指涨0.33%，CRO、创新药爆发，保险股走低</a> [9] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044608" target="_blank" class="news-link">ETF收评 | 创新药板块爆发，港股通创新药ETF涨超5%</a> [14] <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3577293_100_1" target="_blank" class="news-link">飞利浦股票开盘后未能交易，但上涨 9.2%</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">股票 基金 电池</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044612" target="_blank" class="news-link">海辰药业(300584.SZ)：四川洛辰正在进行固态电池粘结剂相关产品的小试工艺验证</a> [10] <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
