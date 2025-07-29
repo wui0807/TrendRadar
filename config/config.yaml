@@ -69,7 +69,7 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
- - id: "fastbull"
+  - id: "fastbull"
     name: "法布"
   - id: "gelonghui"
     name: "格隆汇"
