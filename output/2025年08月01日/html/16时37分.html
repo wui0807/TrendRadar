@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2025-08-01 16:37:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5047425" target="_blank" class="news-link">华体科技(603679.SH)：业务不涉及商业航天领域</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5047424" target="_blank" class="news-link">世名科技(300522.SZ)：碳氢树脂产品目前处于试生产阶段，已向部分下游客户送样与小批量供应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752387" target="_blank" class="news-link">科技IPO热潮！Figma首日开盘涨157%、估值500亿美元，收涨250%</a> [10] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3587968_100_1" target="_blank" class="news-link">注册数据显示，特斯拉7月份在挪威的新车注册量同比增长83.4%。</a> [12] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250801160958384800" target="_blank" class="news-link">特斯拉7月份在挪威的新车注册量同比增长83.4%。</a> [21] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2103310" target="_blank" class="news-link">理想汽车深陷“i8风暴”：对撞测试争议未平 卖空股数一度飙至2300万股</a> [13] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31278392" target="_blank" class="news-link">马上评丨莫把严肃的汽车碰撞测试当营销噱头</a> [20] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1923709941329425575" target="_blank" class="news-link">小米为什么不建一个类似于特斯拉超级工厂年产 200 万量的生产基地，难度在哪里？</a> [11] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5047420" target="_blank" class="news-link">银河磁体(300127.SZ)：产品可用于人形机器人关节电机</a> [9] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">创新药 港股 创新药ETF</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2103179" target="_blank" class="news-link">商业地产巨头终结12年港股历程 大悦城地产斥资29亿港元私有化退市</a> [12] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">股票 基金 电池</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7533425632391204361/" target="_blank" class="news-link">被苹果选中的电池公司赴港IPO</a> [28] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
