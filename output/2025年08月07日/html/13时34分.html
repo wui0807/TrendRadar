@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2025-08-07 13:34:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">11</td>
+                <td class="percentage">12.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599303_100_1" target="_blank" class="news-link">丰田汽车：将在日本爱知县丰田市新建一座汽车工厂。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599306_100_1" target="_blank" class="news-link">丰田汽车：位于丰田市的新工厂预计将于2030年代初开始运营。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599295_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年美国关税影响为1.4万亿日元。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599284_100_1" target="_blank" class="news-link">【行情】丰田汽车股价下跌1%。</a> [6 - 26] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599281_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年欧元/日元平均汇率为160，与之前的假设相同。</a> [9 - 29] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599280_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年美元/日元平均汇率为145，与此前预期相同。</a> [10 - 30] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599279_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年欧洲销量为123万辆，此前预测为122万辆。</a> [11] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599278_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年亚洲销量为186万辆，此前预测为190万辆。</a> [12] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599277_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年日本销量为207万辆，此前预测为207万辆。</a> [14] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250807130623182800" target="_blank" class="news-link">丰田汽车(TM.N)：预计美国关税将使本财年营业利润减少1.4万亿日元。</a> [14] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3599274_100_1" target="_blank" class="news-link">丰田汽车：预计2025/26财年北美销量为296万辆，此前预测为294万辆。</a> [15] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">4</td>
+                <td class="percentage">4.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936688473336668485" target="_blank" class="news-link">特朗普称美将对芯片和半导体征收约 100% 的关税，有哪些意图？将带来哪些影响？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936691965442888328" target="_blank" class="news-link">特朗普拟对非美制芯片征收 100% 关税，苹果承诺在美投资增至六千亿美元，这将对全球经济产生多大影响？</a> [8] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051995" target="_blank" class="news-link">半导体板块走强，科创芯片设计ETF、科创芯片ETF富国、半导体ETF、芯片ETF上涨</a> [8] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250807130447597800" target="_blank" class="news-link">花旗：三星有望在两年内为苹果生产芯片</a> [15] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5052001" target="_blank" class="news-link">大行评级丨招银国际：预计小米Q2收入/经调整净利略低于市场预期</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051998" target="_blank" class="news-link">节卡机器人冲击科创板，聚焦协作机器人领域，2024年扭亏</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">股票 基金 地产</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051993" target="_blank" class="news-link">太古地产(01972.HK)：龙雁仪拟于明年5月退任常务董事兼首席财务官</a> [10] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250807124016416800" target="_blank" class="news-link">AI公司挖角大战苹果惨败 痛失12名人工智能人才</a> [22] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
