@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-08-25 22:26:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">4</td>
+                <td class="percentage">4.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066184" target="_blank" class="news-link">蓝思科技(300433.SZ)：上半年净利润同比增长32.68% 拟10股派1元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066180" target="_blank" class="news-link">华如科技(301302.SZ)：上半年净亏损8380.91万元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3629912_100_1" target="_blank" class="news-link">蓝思科技：向全体股东每10股派发现金红利1.00元。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066179" target="_blank" class="news-link">容大科技(09881.HK)：赖浩恩获委任为联席公司秘书及授权代表</a> [6]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">3</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124975" target="_blank" class="news-link">蚂蚁基金净利暴增近4倍，半年赚了去年全年的钱 ，背后有哪些门道？</a> [12] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250825214148834800" target="_blank" class="news-link">金十图示：2025年08月25日（周一）美股热门股票行情一览（美股盘初）</a> [21] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250825213649764800" target="_blank" class="news-link">美股加密货币相关股票下跌，Riot Blockchain(RIOT.O)跌5.5%，Hut 8下跌6.2%，Marathon Digital(MARA.O)下跌5.8%。</a> [22] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">2.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3629874_100_1" target="_blank" class="news-link">【行情】京东上涨1.7%，理想汽车上涨1.8%，蔚来汽车上涨1.3%。</a> [17] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250825213054524800" target="_blank" class="news-link">美股开盘，道指跌0.19%，标普500指数跌0.15%，纳指跌0.14%。拼多多(PDD.O)开跌1.08%，此前公司二季度营收超出预期，盘前股价一度拉升超10%。热门中概股普涨，蔚来汽车(NIO.N)涨5.46%，阿里巴巴(BABA.N)涨1.94%。</a> [25] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7541903571542114345/" target="_blank" class="news-link">专家：英伟达应向中国缴纳15%保证金</a> [13] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%94%A6%E5%B7%9E%E8%B5%9B%E5%8D%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%83%A7%E7%83%A4%E9%A6%99%E8%BF%B7%E7%B3%8A%E4%BA%86" target="_blank" class="news-link">锦州赛博机器人烧烤香迷糊了</a> [29] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
