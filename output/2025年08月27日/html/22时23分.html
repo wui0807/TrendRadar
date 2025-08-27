@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-08-27 22:23:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">4</td>
+                <td class="percentage">4.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069187" target="_blank" class="news-link">南芯科技(688484.SH)上半年净利润1.23亿元，同比下降40.21%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时23分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634345_101_1" target="_blank" class="news-link">【行情】美股盘初，主要行业Etf涨跌不一，能源业Etf涨0.95%，区域银行Etf涨0.4%，半导体Etf跌0.5%，全球科技股指数Etf跌0.4%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069186" target="_blank" class="news-link">星湖科技(600866.SH)上半年净利润8.36亿元，同比增长65.22%</a> [6] <font color='grey'>- 22时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069182" target="_blank" class="news-link">筑友智造科技(00726.HK)：中期股东应占亏损为2.71亿港元</a> [10] <font color='grey'>- 22时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2216598" target="_blank" class="news-link">小米澎湃OS 3有哪些新改变</a> [18] <font color='grey'>- 22时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2127626" target="_blank" class="news-link">OpenAI重组计划继续受挫！与微软存在多项重要分歧</a> [13] <font color='grey'>- 22时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250827215004230800" target="_blank" class="news-link">英伟达(NVDA.O)转跌1.3%。</a> [14] <font color='grey'>- 22时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634290_100_1" target="_blank" class="news-link">Anthropic：宣布成立Anthropic国家安全与公共部门咨询委员会，旨在支持美国政府。</a> [20] <font color='grey'>- 22时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250827214934003800" target="_blank" class="news-link">金十图示：2025年08月27日（周三）美股热门股票行情一览（美股盘初）</a> [15] <font color='grey'>- 22时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
