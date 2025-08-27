@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-08-27 17:26:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">4</td>
+                <td class="percentage">4.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068487" target="_blank" class="news-link">力源科技(688565.SH)：上半年净利润279.7万元 同比扭亏</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068482" target="_blank" class="news-link">深科技(000021.SZ)：上半年净利润4.52亿元 同比增长25.39%</a> [7] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068479" target="_blank" class="news-link">香港科技探索(01137.HK)：麦永森将获委任为主席</a> [10] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068476" target="_blank" class="news-link">雅克科技(002409.SZ)：上半年净利润5.23亿元 拟10派3.2元</a> [13]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">2.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250827171449625800" target="_blank" class="news-link">麦格理：将理想汽车(LI.O)评级从“中性”下调至“跑输大市”；将理想汽车目标价从110港元下调至82港元；将理想汽车ADR目标价从28美元下调至21美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3633572_0_1" target="_blank" class="news-link">麦格理：将理想汽车评级从“中性”下调至“跑输大市”；将理想汽车目标价从110港元下调至82港元；将理想汽车ADR目标价从28美元下调至21美元。</a> [10 - 30] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1943848408218599475" target="_blank" class="news-link">如何看待卢伟冰转发中央空调对比图疑似拉踩格力，被格力辟谣并曝光小米空调工艺落后？</a> [14] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1943682334009320841" target="_blank" class="news-link">如何评价谷歌将对开发者强制身份认证，否则 APK 无法被侧载安装？</a> [12] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2127550" target="_blank" class="news-link">工信部：推动手机等终端设备直连卫星加快推广应用</a> [8] <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">游戏 游戏ETF 版号</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068488" target="_blank" class="news-link">青瓷游戏(06633.HK)中期业绩：净利润劲增90.2%至7,267万元 盈利能力持续提升</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
