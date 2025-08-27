@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2025-08-28 06:22:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">13</td>
+                <td class="percentage">43.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250828054429887800" target="_blank" class="news-link">英伟达CEO黄仁勋：经估算，若能凭借具有竞争力的产品打开中国市场，今年中国市场将为英伟达带来约500亿美元的潜在业务机会。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250828053040521800" target="_blank" class="news-link">英伟达(NVDA.O) CFO：预计仅在本年度，云服务提供商与企业在数据中心基础设施及计算领域的资本支出就将达到6000亿美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250828052649215800" target="_blank" class="news-link">英伟达(NVDA.O) CFO：预计全年运营费用同比增幅将达到30%高位区间，较此前预期的30%中位区间有所上调。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634976_0_1" target="_blank" class="news-link">英伟达第二季度财报超预期，数据中心营收令人失望，股价下跌</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2128262" target="_blank" class="news-link">美股收盘：三大指数齐涨 标普再创收盘新高 英伟达盘后一度跌逾5%</a> [6] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634958_101_1" target="_blank" class="news-link">英伟达Ceo黄仁勋需求非常、非常高。未来存在重大的、快速成长的机会。</a> [9 - 29] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634953_101_1" target="_blank" class="news-link">英伟达：Ai芯片Blackwell是数据中心销售中最大的部分</a> [12] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634951_100_1" target="_blank" class="news-link">英伟达CEO黄仁勋：预计今年中国市场将为英伟达带来约500亿美元的机遇，前提是英伟达能推出具有竞争力的产品来满足需求。</a> [13] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634949_101_1" target="_blank" class="news-link">黄仁勋谈及Asic芯片带来的竞争威胁</a> [15] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634942_0_1" target="_blank" class="news-link">英伟达第二季度收入增长56%，预计第三季度收入为540亿美元</a> [17] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634939_100_1" target="_blank" class="news-link">英伟达CFO：预计云计算提供商和企业在数据中心基础设施和计算方面的资本支出仅今年一年就将达到6000亿美元。</a> [18] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634937_0_1" target="_blank" class="news-link">标普500指数在英伟达预期中创历史新高，雅保和MongoDB股价飙升</a> [19] <font color='grey'>- 06时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634936_100_1" target="_blank" class="news-link">英伟达CFO：预计全年运营支出将同比增长约38%，高于此前预期的35%左右。</a> [20] <font color='grey'>- 06时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3634967_100_1" target="_blank" class="news-link">美国国防部长海格塞斯：已向微软发出正式关注函。</a> [6 - 26] <font color='grey'>- 06时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
