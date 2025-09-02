@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-09-02 22:25:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">2.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250902220832183800" target="_blank" class="news-link">马斯克：Grok Imagine将在几周内进行重大升级。</a> [9] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7545243885271253055/" target="_blank" class="news-link">马斯克投资的飞行汽车在机场试运营</a> [28] <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">2.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5076398" target="_blank" class="news-link">美股异动｜费城半导体指数跌超2%，美光、英伟达跌超2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5076388" target="_blank" class="news-link">纳指低开约1.8%，英伟达跌超3%</a> [12] <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5076397" target="_blank" class="news-link">格隆汇公告精选︱赛力斯：8月新能源汽车销量同比增长19.57%；长安汽车：1-8月销量1799760辆</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5076399" target="_blank" class="news-link">9月3日A股投资避雷针︱凯迪股份：机器人相关业务暂未形成收入；燕东微：股东亦庄国投拟减持不超1%股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754758" target="_blank" class="news-link">纳指大跌1.7%，芯片股领跌，台积电跌2%、长债收益率集体飙升，黄金涨破3500美元关口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">游戏 游戏ETF 版号</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1945859897322374185" target="_blank" class="news-link">有哪些游戏中出现过的美食 / 菜肴令你隔着屏幕都觉得色香味俱全，久久难以忘怀？</a> [18] <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3643720_101_1" target="_blank" class="news-link">据美国纽约联储数据，上个交易日（8月29日）担保隔夜融资利率（Sofr）报4.34%，之前一天报4.34%。上个交易日有效的联邦基金利率报4.33%，之前一天报4.33%。</a> [12] <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
