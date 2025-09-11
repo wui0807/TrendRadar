@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2025-09-11 15:40:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">5</td>
+                <td class="percentage">6.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3659083_100_1" target="_blank" class="news-link">印度现代集团（Hyundai）高管：将建设面向所有电动汽车用户的无障碍充电设施。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mYl0hNMR4F" target="_blank" class="news-link">对华汽车关税或最高上调至50%，墨西哥被批“讨好美国”</a> [7] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3659077_100_1" target="_blank" class="news-link">印度现代集团（Hyundai）高管：印度在现代汽车向清洁出行转型的过程中占据战略地位。</a> [8 - 28] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911151426922800" target="_blank" class="news-link">现代汽车印度公司高管：将为所有电动汽车用户建设无障碍充电设施。</a> [9] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3659068_100_1" target="_blank" class="news-link">美国国家公路交通安全管理局（NHTSA）：丰田汽车工程与制造公司正在召回部分美国车辆，原因是除霜除雾系统无法运行可能会在特定驾驶条件下降低驾驶员视野，从而增加碰撞风险。</a> [11] <font color='grey'>- 15时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">3.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081854" target="_blank" class="news-link">实益达(002137.SZ)：子公司间接参股杭州宇树科技股份有限公司</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081849" target="_blank" class="news-link">大摩：将新思科技目标价下调至510美元</a> [6] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081847" target="_blank" class="news-link">万祥科技(301180.SZ)：工业富联不是公司的直接客户</a> [8] <font color='grey'>- 15时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">2</td>
+                <td class="percentage">2.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081850" target="_blank" class="news-link">科创板50ETF(588080)涨5.50%，机构认为国产替代和AI芯片仍是主线</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081843" target="_blank" class="news-link">紫光国微(002049.SZ)：AI视频处理器芯片正在研发中</a> [12] <font color='grey'>- 15时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">创新药 港股 创新药ETF</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755377" target="_blank" class="news-link">创业板暴涨5%，AI硬件股掀涨停潮，“易中天”大涨，港股午后拉升，恒指、恒科指翻红，创新药走高</a> [8] <font color='grey'>- 15时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">股票 基金 通信</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5081840" target="_blank" class="news-link">ETF收评 | AI算力板块又爆了！5GETF、通信ETF和5G通信ETF涨停</a> [15] <font color='grey'>- 15时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
