@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 81</p><p>生成时间: 2025-09-11 23:23:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">12</td>
+                <td class="percentage">14.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230243306800" target="_blank" class="news-link">国际货币基金组织：支持阿根廷“继续遵循财政基准”和放松管制议程。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230233061800" target="_blank" class="news-link">国际货币基金组织：工作人员已获悉阿根廷最近对即期外汇市场的干预；政府解释称，这些干预是针对市场波动加剧的“临时性应对措施”。</a> [6] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230215865800" target="_blank" class="news-link">国际货币基金组织：黎巴嫩需要一项全面的改革计划。</a> [7] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230146490800" target="_blank" class="news-link">国际货币基金组织：鼓励阿根廷政府继续重建外汇储备，增强对比索的信心。</a> [8] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230137893800" target="_blank" class="news-link">国际货币基金组织：加纳的公共债务预计将在2025年降至国内生产总值（GDP）的60%，而2022年这一比例为82%。</a> [9] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230130986800" target="_blank" class="news-link">国际货币基金组织：加纳的宏观经济形势正在改善，经济增长超出预期，当局在债务问题上取得了进展。</a> [10] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230120969800" target="_blank" class="news-link">国际货币基金组织：美国就业数据的向下修正幅度大于历史平均水平，将在11月与美国的会谈中对此进行讨论。</a> [11] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230114626800" target="_blank" class="news-link">国际货币基金组织：美国经济出现了一些紧张迹象，国内需求趋于平稳，就业增长放缓。</a> [12] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230108233800" target="_blank" class="news-link">国际货币基金组织：IMF总裁格奥尔基耶娃本周与阿根廷经济部长卡普托进行了通话，讨论了计划实施的进展。</a> [13] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230057669800" target="_blank" class="news-link">国际货币基金组织：工作人员将在9月下旬前往黎巴嫩。</a> [14] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230050188800" target="_blank" class="news-link">国际货币基金组织：美国通胀存在一些上行风险，这在很大程度上是由于关税所致。</a> [15] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250911230032551800" target="_blank" class="news-link">国际货币基金组织：美联储有空间开始逐步降低利率，但应谨慎行事。</a> [16] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082395" target="_blank" class="news-link">声通科技(02495.HK)与声通智效签订合作协议 获提供自动驾驶综合系统项目服务</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B7%98%E6%B1%B0128G%E6%89%8B%E6%9C%BA%E8%83%BD%E5%90%A6%E7%BC%93%E8%A7%A3%E5%82%A8%E5%AD%98%E7%84%A6%E8%99%91" target="_blank" class="news-link">淘汰128G手机能否缓解储存焦虑</a> [17] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3660230_100_1" target="_blank" class="news-link">达美航空高管：银行、金融服务、科技等领域的商务旅行需求强劲</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
