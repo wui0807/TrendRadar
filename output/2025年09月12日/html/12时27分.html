@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2025-09-12 12:27:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">2.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082583" target="_blank" class="news-link">港股午评：恒指大涨1.53%再刷阶段新高，科技股强势拉升，有色金属股普遍活跃</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082573" target="_blank" class="news-link">Rosenblatt下调新思科技目标价至605美元</a> [13] <font color='grey'>- 12时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082572" target="_blank" class="news-link">中概互联网ETF（513050）涨2.11%，恒生科技ETF易方达(513010)涨1.46%，国际投行对中国资产的兴趣显著升温</a> [14] <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">2</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%97%AB%E9%97%AF+%E5%B0%8F%E7%B1%B3&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26stream_entry_id%3D31%26pos%3D4%26dgr%3D0%26q%3D%25E9%2597%25AB%25E9%2597%25AF%2520%25E5%25B0%258F%25E7%25B1%25B3%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D4%26band_rank%3D4%26cate%3D5001%26display_time%3D1757651231%26pre_seqid%3D175765123143501956605122" target="_blank" class="news-link">闫闯 小米</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时27分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3661097_100_1" target="_blank" class="news-link">小米总裁卢伟冰：第二季度ACS交付量540万部以上，增长优先于竞争。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082575" target="_blank" class="news-link">AI算力又爆单了！年内份额狂翻7倍的科创人工智能ETF(588730)涨超2%，冲击三连阳</a> [11] <font color='grey'>- 12时27分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250912115844452800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-09-12）</a> [12] <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082571" target="_blank" class="news-link">D.A. Davidson上调英伟达目标价至210美元</a> [15] <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">创新药 港股 创新药ETF</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082574" target="_blank" class="news-link">港股异动丨康宁杰瑞大涨近16%，胃癌新药上市申请获国家药监局受理</a> [12] <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">股票 基金 通信</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082578" target="_blank" class="news-link">ETF午评 | AI硬件分化，通信设备ETF涨7%，通信ETF跌2%</a> [8] <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">股票 基金 电池</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250912120211338800" target="_blank" class="news-link">富宝资讯：碳酸锂期货震荡运行，富宝电池级碳酸锂报71050元/吨</a> [8] <font color='grey'>- 12时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
