@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2025-09-17 16:31:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">6</td>
+                <td class="percentage">5.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5085012" target="_blank" class="news-link">鼎通科技(688668.SH)：液冷产品已得到部分客户通知进行量产模具的开发</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5085008" target="_blank" class="news-link">科网股全线爆发，恒生科技指数ETF、恒生科技ETF易方达、恒生科技ETF大涨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3668281_100_1" target="_blank" class="news-link">【行情】恒指升469点，恒生科技指数升256点，阿里巴巴升逾5%，美团升逾4%，阿里巴巴、腾讯、百度集团-SW、中芯国际、携程集团-S创新高，市场成交额上升。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5085005" target="_blank" class="news-link">兄弟科技(002562.SZ)：已基本完成国内主流PEEK厂家送样工作</a> [8] <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5085000" target="_blank" class="news-link">掌阅科技(603533.SH)：暂无动漫大电影计划</a> [13] <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084998" target="_blank" class="news-link">鼎通科技(688668.SH)：液冷产品主要用于对连接器和光模块信号传递接触面进行散热处理</a> [15] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89%E8%BD%A6%E9%A1%B6%E7%BB%B4%E6%9D%83%E5%A5%B3%E8%BD%A6%E4%B8%BB%E8%83%9C%E8%AF%89" target="_blank" class="news-link">特斯拉车顶维权女车主胜诉</a> [6] <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E2%80%9C%E8%BD%A6%E9%A1%B6%E7%BB%B4%E6%9D%83%E2%80%9D%E5%A5%B3%E8%BD%A6%E4%B8%BB%E8%83%9C%E8%AF%89" target="_blank" class="news-link">特斯拉“车顶维权”女车主胜诉</a> [26] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">1.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3668294_100_1" target="_blank" class="news-link">【行情】京东上涨1.8%，理想汽车上涨3%，蔚来汽车上涨4.6%，小鹏汽车上涨1.8%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 16时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2147656" target="_blank" class="news-link">工信部就智能网联汽车组合驾驶辅助相关标准公开征求意见</a> [10] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%B0%8F%E7%B1%B317Pro+%E9%BB%91%E8%89%B2%E7%89%88iPhone17Pro&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%25E5%25B0%258F%25E7%25B1%25B317Pro%2520%25E9%25BB%2591%25E8%2589%25B2%25E7%2589%2588iPhone17Pro%26dgr%3D0%26flag%3D0%26pos%3D8%26band_rank%3D7%26c_type%3D31%26realpos%3D7%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26display_time%3D1758097865%26pre_seqid%3D175809786503901387590117" target="_blank" class="news-link">小米17Pro 黑色版iPhone17Pro</a> [7] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3668280_100_1" target="_blank" class="news-link">Nscale：与微软合作打造英国规模最大的AI超级计算机。</a> [6 - 26] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2147397" target="_blank" class="news-link">沙特支付生态将迎来巨变：谷歌支付全面上线，支付宝2026年接入</a> [12] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8mio593RZMW" target="_blank" class="news-link">内塔尼亚胡暗示通过技术手段，远程操纵全球手机</a> [6] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5085010" target="_blank" class="news-link">东方海洋(002086.SZ)：国元基金通过大宗交易减持0.81%股份</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">股票 基金 地产</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250917154608866800" target="_blank" class="news-link">金十数据整理：每日房地产行业动态汇总（2025-09-17）</a> [24] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">股票 基金 电池</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%97%E5%AD%9A%E7%94%B5%E6%B1%A0%E5%B9%BF%E5%91%8A%E8%AF%AD%E5%BC%95%E4%BA%89%E8%AE%AE+%E4%BC%81%E4%B8%9A%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">南孚电池广告语引争议 企业回应</a> [22] <font color='grey'>- 16时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
