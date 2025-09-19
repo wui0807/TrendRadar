@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2025-09-19 12:28:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">创新药 港股 创新药ETF</td>
+                <td class="count">4</td>
+                <td class="percentage">3.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5086106" target="_blank" class="news-link">港股重回涨势，连续29日“吸金”的港股通互联网ETF(513040)上扬1.53%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时28分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5086103" target="_blank" class="news-link">港股午评：三大指数齐涨 黄金股回暖 半导体股继续活跃 创新药走低</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时28分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3672517_100_1" target="_blank" class="news-link">恒指公司：港股通年内净流入突破1万亿元。</a> [11] <font color='grey'>- 12时28分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5086096" target="_blank" class="news-link">港股异动丨商汤涨超6%创2023年4月以来新高，获高盛看高至3.09港元</a> [11] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">2</td>
+                <td class="percentage">1.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E5%B0%8F%E7%B1%B3%E5%8F%AC%E5%9B%9E11.7%E4%B8%87%E8%BE%86SU7" target="_blank" class="news-link">雷军回应小米召回11.7万辆SU7</a> [25] <font color='grey'>- 12时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6OTA%E5%8D%87%E7%BA%A7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26band_rank%3D29%26q%3D%2523%25E9%259B%25B7%25E5%2586%259B%25E5%259B%259E%25E5%25BA%2594%25E5%25B0%258F%25E7%25B1%25B3%25E6%25B1%25BD%25E8%25BD%25A6OTA%25E5%258D%2587%25E7%25BA%25A7%2523%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26pos%3D29%26lcate%3D5001%26realpos%3D29%26display_time%3D1758255485%26pre_seqid%3D175825548591802354454125" target="_blank" class="news-link">雷军回应小米汽车OTA升级</a> [29] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">1.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5086104" target="_blank" class="news-link">博雅互动(00434.HK)与新火科技达成战略合作 共同拓展Web3生态发展机遇</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3672507_0_1" target="_blank" class="news-link">印度金融科技初创公司Jar通过数字黄金储蓄平台实现盈利</a> [17] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">2</td>
+                <td class="percentage">1.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250919115952896800" target="_blank" class="news-link">日本央行：计划按账面价值每年出售约50亿日元的日本房地产信托基金（J-REITs）。</a> [19] <font color='grey'>- 12时28分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250919115220018800" target="_blank" class="news-link">日本央行：ETF和J-REITs的出售规模通常将与从金融机构购买的股票相当。</a> [28] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">0.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952090669905580467" target="_blank" class="news-link">英伟达将收购 50 亿美元的英特尔股份，英伟达和英特尔走到一起，对台积电、 AMD 有何影响？</a> [14] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">股票 基金 电池</td>
+                <td class="count">1</td>
+                <td class="percentage">0.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2149831" target="_blank" class="news-link">工信部：将加快固态电池、钠离子电池、全气候电池等前瞻技术的研发和产业化</a> [9] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250919120434460800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-09-19）</a> [15] <font color='grey'>- 12时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
