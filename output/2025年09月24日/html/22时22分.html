@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2025-09-24 22:22:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">4</td>
+                <td class="percentage">3.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088961" target="_blank" class="news-link">9月25日A股投资避雷针︱长川科技：股东长川投资累计减持1.7796%股份；品茗科技：终止筹划控制权变更事项 9月25日复牌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088960" target="_blank" class="news-link">格隆汇公告精选︱皖维高新：前三季度净利润预增69.81%到109.77%；华软科技：现有光引发剂产品，按客户订单小批量生产销售</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088958" target="_blank" class="news-link">美银：将美光科技目标价上调至180美元</a> [7] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250924214440721800" target="_blank" class="news-link">美国银行：将美光科技(MU.O)目标价从140美元上调至180美元。</a> [26] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">3</td>
+                <td class="percentage">2.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250924221613067800" target="_blank" class="news-link">市场消息：百度(BIDU.O)的Apollo Go获得迪拜首批自动驾驶测试执照，在迪拜市区进行道路试验。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3679729_100_1" target="_blank" class="news-link">中国商务部：商务部长王文涛9月23日在美国纽约召开部分在美中资企业圆桌会。金融、物流、跨境电商、石化、电信、轨道交通、汽车零部件、新能源、医药等领域的十多家在美中资企业及美国中国总商会负责人参加会议，介绍在美业务情况，并就维护企业利益、拓展务实合作等提出具体诉求和建议。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B1%BD%E8%BD%A6%E9%97%A8%E6%8A%8A%E6%89%8B%E5%9B%BD%E6%A0%87%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A%E7%A6%81%E6%AD%A2%E5%85%A8%E9%9A%90%E8%97%8F%E5%BC%8F" target="_blank" class="news-link">汽车门把手国标要来了：禁止全隐藏式</a> [20] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">1.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088956" target="_blank" class="news-link">美股异动丨阿里巴巴大涨超9%创4年新高，与英伟达开展Physical AI合作</a> [9] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2155050" target="_blank" class="news-link">七连发大模型、牵手英伟达、基础设施扩建……阿里这场会信息量很大</a> [11] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">1.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3679698_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：我们需要制定规则来管理人工智能在武器控制中的使用方式。</a> [14] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250924214732456800" target="_blank" class="news-link">市场消息：英特尔(INTC.O)发布一份聚焦人工智能的简报，内容涉及与Trust Stamp的合作事宜。</a> [24] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2155023" target="_blank" class="news-link">“机器人之眼”需求井喷 激光雷达厂商抢滩布局</a> [10] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">游戏 游戏ETF 版号</td>
+                <td class="count">1</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=9%E6%9C%88%E5%9B%BD%E4%BA%A7%E6%B8%B8%E6%88%8F%E7%89%88%E5%8F%B7%E5%85%AC%E5%B8%83" target="_blank" class="news-link">9月国产游戏版号公布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">1</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250924220032445800" target="_blank" class="news-link">金十图示：2025年09月24日（周三）美股热门股票行情一览（美股盘初）</a> [11] <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">科创板 宇树 股票 基金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088962" target="_blank" class="news-link">百奥赛图-B(02315.HK)建议A股发行获上交所科创板上市委员会批准</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
