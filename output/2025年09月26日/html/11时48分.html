@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2025-09-26 11:48:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">7</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B0%8F%E7%B1%B317%E7%B3%BB%E5%88%97%E8%AF%84%E6%B5%8B" target="_blank" class="news-link">小米17系列评测</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时48分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2249610" target="_blank" class="news-link">小米磁吸充电宝兼容苹果17全系</a> [6] <font color='grey'>- 11时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954655758835778389" target="_blank" class="news-link">5 年投入超千亿研发，如何评价雷军在小米造车和造芯上的「豪赌」？</a> [12] <font color='grey'>- 11时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B317+Pro%E6%AF%94iPhone17+Pro%E4%BD%8E4000%E5%85%83" target="_blank" class="news-link">小米17 Pro比iPhone17 Pro低4000元</a> [13] <font color='grey'>- 11时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554191111766429210/" target="_blank" class="news-link">小米17 Pro/Pro Max上手体验</a> [17] <font color='grey'>- 11时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554200367253163561/" target="_blank" class="news-link">小米汽车都有哪些定制项目</a> [23] <font color='grey'>- 11时48分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2249650" target="_blank" class="news-link">小米17 Pro首发评测</a> [26] <font color='grey'>- 11时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E7%90%86%E6%83%B3%E6%B1%BD%E8%BD%A6%E5%93%81%E7%89%8C%E4%BB%A3%E8%A8%80%E4%BA%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26band_rank%3D22%26lcate%3D5001%26pos%3D23%26realpos%3D22%26flag%3D1%26stream_entry_id%3D31%26dgr%3D0%26cate%3D5001%26q%3D%2523%25E6%2598%2593%25E7%2583%258A%25E5%258D%2583%25E7%258E%25BA%25E7%2590%2586%25E6%2583%25B3%25E6%25B1%25BD%25E8%25BD%25A6%25E5%2593%2581%25E7%2589%258C%25E4%25BB%25A3%25E8%25A8%2580%25E4%25BA%25BA%2523%26display_time%3D1758858468%26pre_seqid%3D17588584686570236873015" target="_blank" class="news-link">易烊千玺理想汽车品牌代言人</a> [22] <font color='grey'>- 11时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布] <a href="https://www.fastbull.com/cn/fastshort/3682712_100_1" target="_blank" class="news-link">日本经济大臣赤泽亮正：已确认美国对日本芯片和医药产品征收的关税税率不会高于对其他国家征收的关税。</a> [13] <font color='grey'>- 11时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">创新药 港股 创新药ETF</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089755" target="_blank" class="news-link">港股异动丨宣布派红股，周大福创建逆势涨近5%，创逾6年新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
