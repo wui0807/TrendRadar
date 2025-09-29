@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 71</p><p>生成时间: 2025-09-29 17:45:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">3</td>
+                <td class="percentage">4.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929173644242800" target="_blank" class="news-link">塔塔汽车：捷豹路虎部分生产业务将在未来数日内恢复。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929173016311800" target="_blank" class="news-link">日本经济温和复苏 汽车业却遭美国关税重击</a> [9] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929171809705800" target="_blank" class="news-link">市场消息：日本表示经济正在适度复苏，尽管汽车行业受到美国贸易政策的影响。</a> [20] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">3</td>
+                <td class="percentage">4.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091068" target="_blank" class="news-link">首佳科技(00103.HK)9月29日耗资620.58万港元回购800万股</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091061" target="_blank" class="news-link">振华科技(000733.SZ)：东莞振华不涉及锂电池回收业务</a> [8] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929171205434800" target="_blank" class="news-link">港交所文件显示：贝莱德在舜宇光学科技的持股比例于09月23日从5.02%降至4.67%。</a> [25] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">股票 基金 港股</td>
+                <td class="count">2</td>
+                <td class="percentage">2.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091056" target="_blank" class="news-link">豪森智能(688529.SH)：2022年度向特定对象发行股票募投项目结项</a> [13] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929172017860800" target="_blank" class="news-link">高盛：对冲基金在亚洲新兴市场股票上周出现逾五个月来最大规模单周抛售。</a> [17] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">股票 基金 电池</td>
+                <td class="count">2</td>
+                <td class="percentage">2.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091062" target="_blank" class="news-link">可立克(002782.SZ)：磁性元件产品可以应用在固态电池电源系统中</a> [7] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929172231805800" target="_blank" class="news-link">西门子交通：将在巴伐利亚投资3500万欧元建设电池系统工厂，投资将创造多达200个新职位，工厂将为轨道交通车辆生产电池。</a> [13] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091067" target="_blank" class="news-link">大行评级｜大摩：小米17系列销售成绩证实小米策略成效显著 评级“增持”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E5%91%98%E5%B7%A5%E8%A2%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%89%93%E4%BC%A4+%E7%B4%A2%E8%B5%945100%E4%B8%87" target="_blank" class="news-link">特斯拉员工被机器人打伤 索赔5100万</a> [7] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2253431" target="_blank" class="news-link">黄仁勋说中国芯片仅落后美几纳秒</a> [14] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十] <a href="https://flash.jin10.com/detail/20250929173858558800" target="_blank" class="news-link">据阿联酋国家通讯社：阿布扎比批准420亿迪拉姆数字战略扩建计划（2025-2027年），目标2027年成为全球顶尖人工智能赋能政府。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
