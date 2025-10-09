@@ -92,7 +92,7 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
-    - id: "thepaper"
+  - id:  "thepaper"
     name: "澎湃新闻"
   - id: "bilibili-hot-search"
     name: "bilibili 热搜"
